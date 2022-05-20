@@ -2,20 +2,23 @@
 
 ## About project
 
-Clean code, boas práticas e  boa gestão do estado do app foram os principais focos quando se fala de codificação, já em relação a
+Foi desenvolvido todo o solicitado com alguns extras. Clean code, boas práticas e  boa gestão do estado do app foram os principais focos quando se fala de codificação, já em relação a
 Desing UI foi priorizado a praticidade de ultilizar a ferramenta.
 
-## Foi desenvolvido todo o solicitado com alguns extras.
- 
 ## Ultilizei as seguintes tecnologias:
 
-# Framework Quasar.dev (https://quasar.dev/)
+### Framework Quasar.dev (https://quasar.dev/)
+```bash
   📚 Material UI
   🌐 Google Icons
-# Framework Vue.js (https://vuejs.org/)
+```
+
+### Framework Vue.js (https://vuejs.org/)
+```bash
   📂 Vuex
   📂 Router
   📂 ESlint (linters)
+ ```
  
 🌐 Realizado todos os requisito mínimos:
 ```bash
@@ -41,17 +44,25 @@ Desing UI foi priorizado a praticidade de ultilizar a ferramenta.
  > Visual dos produtos
 ```
 ### Documentação do framework Quasar
-See [Install](https://quasar.dev/start/quasar-cli).
+Clique para visualizar em [Quasar.dev](https://quasar.dev/start/quasar-cli).
  
-### Dependencias para instalar
+### Dependencias para instalar a framework
 ```bash
 yarn
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Como iniciar o projeto
 ```bash
 quasar dev
 ```
+
+### Como realizar o build do projeto
+Irá gerar um site em SPA (Single Page Aplication)
+
+```bash
+quasar build
+```
+
 ### Estrutura de Arquivos
 A estrutura de arquivos está da seguinte maneira:
 
