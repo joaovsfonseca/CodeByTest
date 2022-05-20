@@ -5,18 +5,20 @@
 Clean code, boas práticas e  boa gestão do estado do app foram os principais focos quando se fala de codificação, já em relação a
 Desing UI foi priorizado a praticidade de ultilizar a ferramenta.
 
->  Foi desenvolvido todo o solicitado e muito mais.
+## Foi desenvolvido todo o solicitado com alguns extras.
  
-Foi utilizado as seguintes tecnologias:
-> Framework Quasar.dev (https://quasar.dev/)
+## Ultilizei as seguintes tecnologias:
+
+# Framework Quasar.dev (https://quasar.dev/)
   📚 Material UI
   🌐 Google Icons
-> Framework Vue.js (https://vuejs.org/)
+# Framework Vue.js (https://vuejs.org/)
   📂 Vuex
   📂 Router
   📂 ESlint (linters)
  
 🌐 Realizado todos os requisito mínimos:
+```bash
  > Fornece uma forma de adicionar e remover itens do carrinho de compras
  > Notificação para as principais ações
  > Responsivo e clean
@@ -30,20 +32,21 @@ Foi utilizado as seguintes tecnologias:
  > Você poderá usar Vanilla JS, React, Vue ou outro framework. Sinta-se a vontade para usar a ferramenta que preferir.
  > Enviar o link do teste no github.
  > Usada a fonte Poppins
-
+```
 🌐 Como desenvolvimento extra foi desenvolvido: 
+```bash
  > Fornece uma forma de adicionar e remover itens do carrinho de compras
  > Notificação para as principais ações
  > Responsivo e clean
  > Visual dos produtos
-
+```
+### Documentação do framework Quasar
+See [Install](https://quasar.dev/start/quasar-cli).
  
 ### Dependencias para instalar
 ```bash
 yarn
 ```
-### Install project
-See [Install](https://quasar.dev/start/quasar-cli).
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
@@ -52,6 +55,7 @@ quasar dev
 ### Estrutura de Arquivos
 A estrutura de arquivos está da seguinte maneira:
 
+```bash
 desafio-frontend
 ├── public/
 ├── src/
@@ -67,3 +71,4 @@ desafio-frontend
 │   │   ├── shopping-cart/
 ├── index.template.html
 └── App.vue
+```
